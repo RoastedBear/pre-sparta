@@ -40,7 +40,6 @@ public class Order {
         this.createdAt = LocalDateTime.now();
     }
 
-    // getters
     public Long getId() { return id; }
     public Product getProduct() { return product; }
     public Long getQty() { return qty; }
